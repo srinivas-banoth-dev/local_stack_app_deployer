@@ -1,0 +1,7 @@
+1. Network layer in aws
+2. compute layer in aws
+3. data storage layer in aws.
+
+
+theme
+Target setup jenkins, terraform in aws EKS. using eks pipeline code deploy.
