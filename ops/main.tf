@@ -130,7 +130,7 @@ resource "aws_lb_listener" "mylistener" {
 # }
 data "archive_file" "lambda_hello_world" {
   type = "zip"
-  source_dir  = "${path.module}/hello-world"
+  source_dir ="../api/hello-world"
   output_path = "${path.module}/hello-world.zip"
 }
 resource "aws_iam_role" "lambda_exec" {
