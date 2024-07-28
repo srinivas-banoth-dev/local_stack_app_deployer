@@ -9,7 +9,7 @@ services:
       - "127.0.0.1:443:443"              # LocalStack HTTPS Gateway (Pro)
     environment:
       # LocalStack configuration: https://docs.localstack.cloud/references/configuration/
-      - LOCALSTACK_AUTH_TOKEN="ls-XuLa5728-seNI-padu-TUmO-3447vuCic4ca"
+      - LOCALSTACK_AUTH_TOKEN="API_KEY"
       - SERVICES=apigateway,cloudwatch,iam,lambda,logs,s3,sns,sqs,dynamodb,ec2,sts,cloudformation,stepfunctions,elasticsearch,kinesis,firehose,route53,redshift,es
       - DEBUG=1
       - DATA_DIR=/tmp/localstack/data
